@@ -392,6 +392,121 @@ article.commun_deux a ul.commun_deux{
     bottom: 4.75rem;
 }
 
-/*---------------------------------------------
+/*-------------------------------------------
 FIN PARTIE MAIN : "BLOC LES PLUS POPULAIRES"
-----------------------------------------------*/
+--------------------------------------------*/
+
+/*-----------------------------------------------
+DEBUT PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"
+------------------------------------------------*/
+
+.sec_activites{
+    padding-top: 3rem;
+}
+
+.div_activites{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+
+div.section_gauche{
+    height: 32rem;
+    width: 40.62rem;   
+}
+
+div.section_droite{
+    height: 32rem;
+    width: 40.62rem;
+}
+
+div.section_gaucheun,div.section_droiteun {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+  
+article.commun_trois{
+    border-radius: 1.25rem;
+    background-color: white;
+    height: 32.25rem;
+    width: 27.81rem;
+    box-shadow: 0 0 1rem #0000002E; 
+}
+
+article.commun_trois a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+figure.commun_trois img{
+    height: 29.37rem;
+    width: 100%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    object-fit: cover;
+}
+
+article.commun_trois a h3.commun_trois{
+    padding-left: 1rem;
+}
+
+article.commun_quatre{
+        border-radius: 1.25rem;
+        background-color: white;
+        height: 14rem;
+        width: 20rem;
+        box-shadow: 0 0 1rem #0000002E; 
+    }
+    
+article.commun_quatre a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+    }
+    
+figure.commun_quatre img{
+        height: 11.25rem;
+        width: 100%;
+        border-top-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem;
+        object-fit: cover;
+    }
+    
+article.commun_quatre h3.commun_quatre{
+        padding-left: 1rem;
+    }
+
+article.commun_cinq{
+        border-radius: 1.25rem;
+        background-color: white;
+        height: 12rem;
+        width: 20rem;
+        box-shadow: 0 0 1rem #0000002E; 
+    }
+    
+article.commun_cinq a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+    }
+    
+figure.commun_cinq img{
+        height: 10rem;
+        width: 100%;
+        border-top-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem;
+        object-fit: cover;
+    }
+    
+article.commun_cinq h3.commun_cinq{
+        padding-left: 1rem;     
+    }  
+
+/*-----------------------------------------------
+FIN PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"
+------------------------------------------------*/
