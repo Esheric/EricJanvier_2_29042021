@@ -1,0 +1,75 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'raleway', sans-serif;
+}
+
+/*------------------
+DEBUT PARTIE HEADER 
+-------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: auto;
+    padding-left: 2rem;
+}
+
+body  header nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #106ffc;
+    font-size: 1.13rem;
+}
+
+body header nav ul li.menu_activites a{
+    color: black;
+    font-size: 1.13rem;
+}
+
+li.menu_sinscrire a{
+    color: #0065fc ;
+    font-size: 1.13rem;
+    font-weight: bold;
+}
+
+li.menu_hebergements a:active{
+    color: #106ffc;
+}
+
+li.menu_activites a:active{
+    color: black;
+}
+
+li.menu_sinscrire a:active{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+li.menu_hebergements a:visited,{
+    color: #106ffc;
+}
+
+li.menu_activites a:visited{
+    color: black;
+}
+
+li.menu_sinscrire a:visited{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    padding: 1.60rem;
+    flex-wrap: wrap;
+}
+
+/*----------------
+FIN PARTIE HEADER 
+-----------------*/
