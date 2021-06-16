@@ -233,3 +233,86 @@ p.p_trois i{
 FIN PARTIE INFORMATION
 ----------------------*/
 
+/*--------------------------------------------------
+DEBUT PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"
+---------------------------------------------------*/
+
+main{
+    max-width: 1340px;
+    margin: auto;
+}
+
+section.sec_hebergements{
+    width: 65%;
+    height: 43rem;
+    background-color: #F2F2F2;
+    border-radius: 1.25rem;
+    margin-top: 1rem;
+
+}
+
+#menu_hebergements{
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+article.commun_un{
+    height: 13rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    border: 0.19rem white solid;
+    box-shadow: 0 0 1rem #0000002E;
+    margin-bottom: 2rem;
+}
+
+figure.commun_un img{
+    height: 8rem;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit: cover;
+}
+
+article.commun_un a, article.commun_deux a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.90rem;
+}
+
+h3.commun_un, p.commun_un{
+    padding-top: 0.25rem;
+    padding-left: 1rem;
+}
+
+ul.commun_un{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+ul.commun_un, ul.commun_deux{
+    list-style-type: none;
+    color: #0065FC;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.75rem;
+}
+
+section.sec_hebergements div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+p.afficher a{
+        font-weight: bold;
+        color: black;
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding-left: 2rem;
+    }
+
+/*------------------------------------------------
+FIN PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"
+-------------------------------------------------*/
