@@ -96,3 +96,51 @@ section.section_un p{
 /*------------------
 FIN PARTIE TITRE H1 
 -------------------*/
+
+/*-------------------------------
+DEBUT PARTIE CHAMP DE RECHERCHER
+--------------------------------*/
+
+section.section_deux{
+    max-width: 1340px;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+section.section_deux p{
+    display: flex;
+}
+
+section.section_deux p i{
+    font-size: 1.13rem;
+    background-color: #F2F2F2;
+    padding: 1.25rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+
+section.section_deux p input{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-right: none;
+    border-left: #F2F2F2 1px solid;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 1.25rem 1.25rem;
+}
+
+section.section_deux p button{
+    font-size: 1.13rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0065fc;
+    border: none;
+    border-radius: 0 1rem 0.63rem 0;
+    cursor: pointer;
+    padding: 1.25rem 1.25rem;
+}
+
+/*-----------------------------
+FIN PARTIE CHAMP DE RECHERCHER
+------------------------------*/
