@@ -202,3 +202,34 @@ section.section_trois div.div_un div i{
 FIN PARTIE FILTRES
 ------------------*/
 
+/*-----------------------
+DEBUT PARTIE INFORMATION
+------------------------*/
+
+p.p_trois{ 
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    
+}
+
+p.p_trois i{
+    font-size: 0.700rem;
+    color: #0065FC;
+    border: 0.125rem #F2F2F2 solid ;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------------
+FIN PARTIE INFORMATION
+----------------------*/
+
