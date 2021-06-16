@@ -144,3 +144,61 @@ section.section_deux p button{
 /*-----------------------------
 FIN PARTIE CHAMP DE RECHERCHER
 ------------------------------*/
+
+/*-------------------
+DEBUT PARTIE FILTRES
+--------------------*/
+
+section.section_trois div.div_un{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1340px;
+    padding-left: 3rem;
+}
+
+section.section_trois div.div_un h3{
+    margin: 0 2rem 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+section.section_trois div.div_un div{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #F2F2F2;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+section.section_trois div.div_un div:hover{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-color: #DEEBFF;
+    transition-delay: 0.1s;
+}
+
+section.section_trois div.div_un div i{
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+    color: #0065FC;
+    margin-right: 1rem;
+}
+
+/*-----------------
+FIN PARTIE FILTRES
+------------------*/
+
