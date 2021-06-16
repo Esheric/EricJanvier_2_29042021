@@ -316,3 +316,82 @@ p.afficher a{
 /*------------------------------------------------
 FIN PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"
 -------------------------------------------------*/
+
+body main div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------------------------------
+DEBUT PARTIE MAIN : "BLOC LES PLUS POPULAIRES"
+----------------------------------------------*/
+
+body main div aside{
+    width: 33%;
+    height: 43rem;
+    background-color: #F2F2F2;
+    border-radius: 1.25rem;
+    margin-top: 1rem;
+}
+
+body main div aside div.aside_un{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+aside div.aside_un h2{
+    padding-left: 2rem;
+}
+
+.iconechartline{
+    font-size: 1.50rem;
+    padding-right: 2rem;
+}
+
+body main div aside div.aside_deux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body main div aside div.aside_deux article.commun_deux{
+    border: 0.19rem white solid;
+    border-radius: 1.25rem;
+    background-color: white;
+    height: 8.75rem;
+    width: 85%;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 1rem #0000002E;  
+}
+
+body main div aside div.aside_deux figure.commun_deux img{
+    height: 8.75rem;
+    width: 10rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    object-fit: cover;
+}
+
+article.commun_deux a h3.commun_deux{
+    padding-left: 12rem;
+    position: relative;
+    bottom: 8.50rem;
+}
+
+article.commun_deux a p.commun_deux{
+    padding-left: 12rem;
+    position: relative;
+    bottom: 8rem;
+}
+
+article.commun_deux a ul.commun_deux{
+    padding-left: 12rem;
+    position: relative;
+    bottom: 4.75rem;
+}
+
+/*---------------------------------------------
+FIN PARTIE MAIN : "BLOC LES PLUS POPULAIRES"
+----------------------------------------------*/
