@@ -73,3 +73,26 @@ li a{
 /*----------------
 FIN PARTIE HEADER 
 -----------------*/
+
+/*--------------------
+DEBUT PARTIE TITRE H1 
+---------------------*/
+section.section_un h1{
+    font-size: 1.38rem;
+    max-width: 1340px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+section.section_un p{
+    max-width: 1340px;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+/*------------------
+FIN PARTIE TITRE H1 
+-------------------*/
