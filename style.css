@@ -510,3 +510,52 @@ article.commun_cinq h3.commun_cinq{
 /*-----------------------------------------------
 FIN PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"
 ------------------------------------------------*/
+
+/*------------------
+DEBUT PARTIE FOOTER
+-------------------*/
+
+footer{
+    background-color:#F2F2F2;
+    height: 20rem;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+footer div.footer_un{
+    height: 16rem;
+    max-width: 84rem;
+    margin: auto;
+    padding-top: 3rem; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_deux, .footer_trois, .footer_quatre{
+    flex-grow: 1;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.menu_apropos{
+    margin-left: -1.80rem;
+}
+
+.menu_nos, .menu_assistance{
+    margin-left: -1.75rem;
+}
+
+.divapropos_deux, .divapropos_trois, .divnos_deux, .divassistance_deux{
+    margin-top: -2.50rem;
+}
+/*------------------
+FIN PARTIE FOOTER
+-------------------*/
