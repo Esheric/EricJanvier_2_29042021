@@ -1,0 +1,295 @@
+/*-----------
+DEBUT 1315px
+------------*/
+@media screen and (max-width: 1315px){
+    .div_activites{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    }
+
+    div.section_gauche, div.section_droite{
+    height: 28rem;
+    width: 45%;   
+    display: flex;
+    flex-direction: column;
+    }
+
+    div.section_gaucheun,div.section_droiteun {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    }
+
+    article.commun_trois, article.commun_quatre, article.commun_cinq{
+    height: 14rem;
+    width: 100%;
+    }
+
+    article.commun_quatre, article.commun_cinq{
+    margin-top: 2rem;
+    }
+
+    figure.commun_trois img, figure.commun_quatre img, figure.commun_cinq img{
+    height: 11.25rem;
+    width: 100%;
+    }
+
+    h3.commun_trois{
+    padding-bottom: 1rem;
+    }
+
+    footer{
+    margin-top: 22rem;
+    }
+
+    .menu_apropos{
+    margin-left: -1.60rem;
+    }
+}
+/*---------
+FIN 1315px
+----------*/
+
+/*-----------
+DEBUT 1215px
+------------*/
+
+@media screen and (max-width: 1215px){
+    body main div{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    main{
+    width: auto;
+    margin: auto;
+    }
+
+    section.sec_hebergements{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    margin-top: 0rem;
+    }
+
+    section.sec_hebergements div{
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 50rem;
+    }
+
+    article.commun_un{
+    height: 14rem;
+    width: 45%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+
+    body main div aside div.aside_deux article.commun_deux{
+    height: auto;
+    width: auto;
+    margin-left: 1rem;
+    }
+
+    body main div aside div.aside_deux figure.commun_deux img{
+    width: 100%;
+    height: 12.75rem;
+    border-bottom-left-radius: initial;
+    border-top-right-radius: 1rem;
+    }
+
+    body main div aside{
+    width: auto;
+    height: auto;
+    }
+
+    body main div aside div.aside_un{
+    flex-direction: row;
+    }
+
+    body main div aside div.aside_deux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 1rem;
+        position: initial;
+        font-size: 1rem;
+    }
+
+    article.commun_deux a p.commun_deux{
+        padding-left: 1rem;
+        position: initial;
+        font-size: 1rem;
+    }
+
+    article.commun_deux a ul.commun_deux{
+        padding-left: 1rem;
+        position: initial;
+        font-size: 1rem;
+    }
+
+    .sec_activites{
+        padding-top: 12rem;
+    }
+
+    .div_activites{
+        flex-direction: row;
+        }
+}
+
+/*-----------
+FIN 1215px
+------------*/
+
+
+/*----------
+DEBUT 640px
+-----------*/
+
+@media screen and (max-width: 640px){
+    body header nav ul{
+        flex-wrap: wrap;
+        place-content: flex-end;
+    }
+
+    p.p_trois{ 
+        padding-left: 1rem;
+    }
+
+    body main div aside div.aside_un{
+        padding-top: 2rem;
+    }
+
+    body main div aside div.aside_deux{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    body main div aside div.aside_deux article.commun_deux{
+        height: 10.75rem;
+        width: 28rem;
+        margin-left: 1rem;
+    }
+
+    body main div aside div.aside_deux figure.commun_deux img{
+        width: 44%;
+        height: 10.75rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: initial;
+    }   
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 12rem;
+        position: relative;
+        bottom: 10.5rem;
+        left: 2rem;
+    }
+
+    article.commun_deux a p.commun_deux{
+        padding-left: 14rem;
+        position: relative;
+        bottom: 9rem;
+    }
+
+    article.commun_deux a ul.commun_deux{
+        padding-left: 14rem;
+        position: relative;
+        bottom: 4.75rem;
+    }
+
+    section.sec_hebergements{
+        margin-top: 0rem;
+        }
+
+    #menu_hebergments{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        position: relative;
+        top:-21rem;
+    }
+
+    section.sec_hebergements div{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: initial;
+    }
+
+    article.commun_un{
+        height: 14rem;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .sec_activites{
+        padding-top: 62rem;
+    }
+
+    div.section_gauche, div.section_droite{
+        height: 46rem;
+        width: 100%;   
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        position: relative;
+        left: 1rem;
+    }
+
+    footer{
+        margin-top: 3rem;
+        height: 30rem;
+        }
+    
+    footer div.footer_un{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+}
+
+/*----------
+FIN 640px
+-----------*/
+
+/*----------
+DEBUT 560px
+-----------*/
+
+@media screen and (max-width: 560px){
+    
+    body header nav ul{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+/*----------
+FIN 560px
+-----------*/
+
+
+/*----------
+DEBUT 540px
+-----------*/
+
+@media screen and (max-width: 540px){
+    
+    section.section_trois div.div_un{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+
+/*----------
+FIN 540px
+-----------*/

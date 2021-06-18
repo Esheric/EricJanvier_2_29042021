@@ -22,24 +22,24 @@ body  header nav ul{
     align-items: center;
 }
 
-a{
+li.menu_hebergements a{
     color: #106ffc;
     font-size: 1.13rem;
 }
 
-body header nav ul li.menu_activites a{
+li.menu_activites a{
     color: black;
     font-size: 1.13rem;
 }
 
 li.menu_sinscrire a{
-    color: #0065fc ;
+    color: #0065FC ;
     font-size: 1.13rem;
     font-weight: bold;
 }
 
 li.menu_hebergements a:active{
-    color: #106ffc;
+    color: #106FFC;
 }
 
 li.menu_activites a:active{
@@ -47,11 +47,11 @@ li.menu_activites a:active{
 }
 
 li.menu_sinscrire a:active{
-    color: #0065fc;
+    color: #0065FC;
     font-weight: bold;
 }
 
-li.menu_hebergements a:visited,{
+li.menu_hebergements a:visited{
     color: #106ffc;
 }
 
@@ -60,7 +60,7 @@ li.menu_activites a:visited{
 }
 
 li.menu_sinscrire a:visited{
-    color: #0065fc;
+    color: #0065FC;
     font-weight: bold;
 }
 
@@ -167,7 +167,7 @@ section.section_trois div.div_un div{
     display: flex;
     align-items: center;
     margin-right: 2rem;
-    border: 2px solid #F2F2F2;
+    border: 0.125rem solid #F2F2F2;
     border-radius: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -412,14 +412,9 @@ DEBUT PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"
 }
 
 
-div.section_gauche{
+div.section_gauche, div.section_droite{
     height: 32rem;
     width: 40.62rem;   
-}
-
-div.section_droite{
-    height: 32rem;
-    width: 40.62rem;
 }
 
 div.section_gaucheun,div.section_droiteun {
