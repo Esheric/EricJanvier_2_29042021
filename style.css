@@ -9,22 +9,30 @@ DEBUT PARTIE HEADER
 -------------------*/
 
 header{
-    display: flex;
-    justify-content: space-between;
     max-width: 1340px;
     margin: auto;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    width: 100%;
 }
 
-body  header nav ul{
+body header nav ul{
     list-style-type: none;
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+body header nav ul a{
+    flex-grow: 10;
 }
 
 li.menu_hebergements a{
     color: #106ffc;
     font-size: 1.13rem;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 li.menu_activites a{
@@ -62,6 +70,14 @@ li.menu_activites a:visited{
 li.menu_sinscrire a:visited{
     color: #0065FC;
     font-weight: bold;
+}
+
+header nav ul li.menu_hebergements a:hover, header nav ul li.menu_activites a:hover{
+    color: #0065FC;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 li a{
@@ -139,6 +155,10 @@ section.section_deux p button{
     border-radius: 0 1rem 0.63rem 0;
     cursor: pointer;
     padding: 1.25rem 1.25rem;
+}
+
+section.section_deux p button i{
+    display: none;
 }
 
 /*-----------------------------
