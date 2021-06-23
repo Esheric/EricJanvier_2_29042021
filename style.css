@@ -366,22 +366,27 @@ body main div{
 
 article:hover{
     background-color: #F2F2F2;
+    box-shadow: 0 0 1rem #00000051;
 }
 
 aside div.aside_deux article.commun_deux:hover{
     background-color: #F2F2F2;
+    box-shadow: 0 0 1rem #00000051;
 }
 
 article.commun_trois:hover{
     background-color: #F2F2F2;
+    box-shadow: 0 0 1rem #00000051;
 }
 
 article.commun_quatre:hover{
     background-color: #F2F2F2;
+    box-shadow: 0 0 1rem #00000051;
 }
 
 article.commun_cinq:hover{
     background-color: #F2F2F2;
+    box-shadow: 0 0 1rem #00000051;
 }
 
 /*---------------------------------------------
@@ -613,6 +618,38 @@ li a{
 
 .liapropos_deux, .liapropos_trois, .linos_deux, .liassistance_deux{
     margin-top: -2.50rem;
+}
+
+.liapropos_un a{
+    width: 11rem;
+}
+
+.liapropos_deux a{
+    width: 15rem;
+}
+
+.liapropos_trois a{
+    width: 12.50rem;
+}
+
+.linos_un{
+    width: 7rem;
+}
+
+.linos_deux{
+    width: 10.10rem;
+}
+
+.liassistance_un{
+    width: 10.75rem;
+}
+
+.liassistance_deux{
+    width: 11rem;
+}
+
+footer li a:hover{
+  color: #0065FC
 }
 /*------------------
 FIN PARTIE FOOTER
