@@ -26,16 +26,7 @@ body header nav ul li.logo{
     flex-grow: 10;
 }
 
-li.menu_hebergements a{
-    color: #106ffc;
-    font-size: 1.13rem;
-    border: 0.125rem #0065fc solid;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-}
-
-li.menu_activites a{
+li.menu_hebergements a, li.menu_activites a{
     color: black;
     font-size: 1.13rem;
 }
@@ -46,21 +37,51 @@ li.menu_sinscrire a{
     font-weight: bold;
 }
 
+li.menu_hebergements a:hover{
+    color: #0065FC;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+li.menu_activites a:hover{
+    color: #0065FC;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+li.menu_sinscrire a:hover{
+    background-color: #DEEBFF;
+    border: 0.125rem #0065fc solid;
+    border-radius: 1.25rem;
+}
+
 li.menu_hebergements a:active{
-    color: #106FFC;
+    color: #0065FC;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 li.menu_activites a:active{
-    color: black;
+    color: #0065FC;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 li.menu_sinscrire a:active{
     color: #0065FC;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
 li.menu_hebergements a:visited{
-    color: #106ffc;
+    color: black;
 }
 
 li.menu_activites a:visited{
@@ -71,6 +92,7 @@ li.menu_sinscrire a:visited{
     color: #0065FC;
     font-weight: bold;
 }
+
 
 header nav ul li.menu_hebergements a:hover, header nav ul li.menu_activites a:hover{
     color: #0065FC;
@@ -198,7 +220,7 @@ section.section_filtres div.div_un div:hover{
     border-color: #DEEBFF;
     transition-delay: 0.1s;
 }
-
+    
 section.section_filtres div.div_un div i{
     background-color: #DEEBFF;
     border-radius: 100%;
@@ -336,6 +358,26 @@ FIN PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"
 body main div{
     display: flex;
     justify-content: space-between;
+}
+
+article:hover{
+    background-color: #F2F2F2;
+}
+
+aside div.aside_deux article.commun_deux:hover{
+    background-color: #F2F2F2;
+}
+
+article.commun_trois:hover{
+    background-color: #F2F2F2;
+}
+
+article.commun_quatre:hover{
+    background-color: #F2F2F2;
+}
+
+article.commun_cinq:hover{
+    background-color: #F2F2F2;
 }
 
 /*---------------------------------------------
