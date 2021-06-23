@@ -256,13 +256,14 @@ DEBUT 640px
 }
 
 /*----------
-DEBUT 560px
+DEBUT 595px
 -----------*/
 
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 595px){
 
     body{
         min-width: 320px;
+        width: 595px;
     }
     
     body header{
@@ -353,34 +354,34 @@ DEBUT 560px
         margin-left: 3rem;
     }
 
-    section.section_deux form p{
+    section.section_un form p.p_deux{
         display: flex;
     }
 
-    section.section_deux form p i{
+    section.section_un form p.p_deux i{
         flex-grow: 0;
     }
 
-    section.section_deux form p input{
+    section.section_un form p.p_deux input{
         flex-grow: 3;
     }
 
-    section.section_deux form p button{
+    section.section_un form p.p_deux button{
         border: none;
         border-radius: 1rem;
         cursor: pointer;
         padding: 0rem;
-        background-color: none;    
+        background-color: #0065FC;    
         position: relative;
         left: -1rem;
         flex-grow: 0;
     }
 
-    section.section_deux form p button span{
+    section.section_un form p.p_deux button span{
         display: none ;
     }   
 
-    section.section_deux form p button i{
+    section.section_un form p.p_deux button i{
         display: block;
         color: white;
         background-color: #0065fc;
@@ -410,7 +411,7 @@ DEBUT 560px
     }
 
     article.commun_un{
-        width: 33rem;
+        width: 32rem;
         margin-left: 1rem;
     }
 
@@ -423,17 +424,22 @@ DEBUT 560px
     } 
 
     article.commun_trois, article.commun_quatre, article.commun_cinq{
-        width: 33rem;
+        width: 32rem;
         margin-left: 1rem;
     }
 
-    body, footer{
+    div.section_gauche, div.section_droite{
+        left: 0;
+        padding-left: 1rem;
+    }
+
+    footer{
         width: 600px;
     }
 
 }
 /*--------
-FIN 560px
+FIN 595px
 ---------*/
 
 /*----------
@@ -466,19 +472,19 @@ DEBUT 425px
         font-size: 1.50rem;
     }
 
-    section.section_deux form p i{
+    section.section_un form p.p_deux i{
         font-size: 1.75rem;
     }
 
-    section.section_deux form p input{
+    section.section_un form p.p_deux input{
         font-size: 1.75rem;
     }
 
-    section.section_deux form p button i{
+    section.section_un form p.p_deux button i{
         font-size: 1.75rem;
     }
 
-    section.section_trois div.div_un{
+    section.section_filtres div.div_un{
         font-size: 1.50rem;
     }
 
@@ -598,7 +604,7 @@ DEBUT 425px
         font-size: 2rem;
     }
 
-    .divapropos_deux, .divapropos_trois, .divnos_deux, .divassistance_deux{
+    .liapropos_deux, .liapropos_trois, .linos_deux, .liassistance_deux{
         font-size: 1.50rem;
     }
 
@@ -611,3 +617,7 @@ DEBUT 425px
     }
 
 }
+
+/*--------
+FIN 425px
+---------*/

@@ -17,7 +17,7 @@
     <header>
             <nav>
                 <ul>
-                    <a href="images/logo/Reservia@3x.png"><img src="images/logo/Reservia.svg" alt="Reservia"/></a>
+                    <li class="logo"><a href="images/logo/Reservia@3x.png"><img src="images/logo/Reservia.svg" alt="Reservia"/></a></li>
                     <li class="menu_hebergements"><a href="#menu_hebergements">Hébergements</a></li>
                     <li class="menu_activites"><a href="#menu_activites">Activités</a></li> 
                     <li class="menu_sinscrire"><a href="#">S'inscrire</a></li>
@@ -26,17 +26,12 @@
     </header>
     <!--FIN PARTIE HEADER-->
 
-    <!--DEBUT PARTIE TITRE H1 -->        
+    <!--DEBUT PARTIE TITRE H1 & CHAMP DE RECHERCHER-->        
     <section class="section_un">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-    </section>
-    <!--FIN PARTIE TITRE H1 -->
-
-    <!--DEBUT PARTIE CHAMP DE RECHERCHER-->
-    <section class="section_deux">
+        <p class="p_un">En plein centre ville ou en pleine nature</p>
         <form method="POST" action="traitement.php">
-            <p>
+            <p class="p_deux">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="search" value="Marseille, France">
                 <button>
@@ -46,10 +41,10 @@
             </p>
         </form>
     </section>
-    <!--FIN PARTIE CHAMP DE RECHERCHER-->
+    <!--FIN PARTIE TITRE H1 & CHAMPS RECHERCHER-->
 
     <!--DEBUT PARTIE FILTRES-->
-    <section class="section_trois">
+    <section class="section_filtres">
         <div class="div_un">
             <h3>Filtres</h3>
             <div><i class="fas fa-money-bill-wave"></i>Économique</div>
@@ -67,10 +62,10 @@
     </p>
     <!--FIN PARTIE INFORMATION-->
 
-<main>
-    <div>
-        <!--DEBUT PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"-->
-        <section class="sec_hebergements">   
+    <main>
+        <div>
+         <!--DEBUT PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"-->
+         <section class="sec_hebergements">   
             <h2 id="menu_hebergements">Hébergements à Marseille</h2>
             <div>
                 <article class="commun_un">
@@ -171,11 +166,11 @@
                 </article>
             </div>
             <p class="afficher"><a href="#">Afficher plus</a></p>    
-        </section>
-        <!--FIN PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"-->
+         </section>
+         <!--FIN PARTIE MAIN : "BLOC HEBERGEMENTS A MARSEILLE"-->
 
-        <!--DEBUT PARTIE MAIN : "BLOC LES PLUS POPULAIRES"-->
-        <aside>
+         <!--DEBUT PARTIE MAIN : "BLOC LES PLUS POPULAIRES"-->
+         <aside>
             <div class="aside_un">
                 <h2>Les plus populaires</h2>
                 <span class="iconechartline"><i class="fas fa-chart-line"></i></span>
@@ -230,12 +225,12 @@
                     </a>
                 </article>
             </div>
-        </aside>
-        <!--FIN PARTIE MAIN : "BLOC LES PLUS POPULAIRES"-->
-    </div>   
+         </aside>
+         <!--FIN PARTIE MAIN : "BLOC LES PLUS POPULAIRES"-->
+        </div>   
 
-    <!--DEBUT PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"-->
-    <section class="sec_activites">
+      <!--DEBUT PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"-->
+      <section class="sec_activites">
         <h2 id="menu_activites">Activités à Marseille</h2>
         <div class="div_activites">
             <div class="section_gauche">
@@ -295,39 +290,39 @@
             </div>
             </div>
         </div>               
-    </section>
-    <!--FIN PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"-->
-</main>
+      </section>
+      <!--FIN PARTIE MAIN : "BLOC ACTIVITES A MARSEILLE"-->
+    </main>
 
-<!--DEBUT PARTIE FOOTER-->
-<footer>
-    <div class="footer_un">
+    <!--DEBUT PARTIE FOOTER-->
+    <footer>
+     <div class="footer_un">
         <div class="footer_deux">
            <h3 class="apropos">A propos</h3> 
            <ul class="menu_apropos">
-               <div class="divapropos_un"><li><a href="#">Fonctionnement du site</a></li></div>
-               <div class="divapropos_deux"><li><a href="#">Conditions générales de vente</a></li></div>
-               <div class="divapropos_trois"><li><a href="#">Données et confidentialité</a></li></div>
+               <li class="liapropos_un"><a href="#">Fonctionnement du site</a></li>
+               <li class="liapropos_deux"><a href="#">Conditions générales de vente</a></li>
+               <li class="liapropos_trois"><a href="#">Données et confidentialité</a></li>
            </ul>
         </div>
 
         <div class="footer_trois">
             <h3 class="nos">Nos hébergements</h3> 
             <ul class="menu_nos">
-                <div class="divnos_un"><li><a href="#">Charte qualité</a></li></div>
-                <div class="divnos_deux"><li><a href="#">Soumettre votre hôtel</a></li></div>
+                <li class="linos_un"><li><a href="#">Charte qualité</a></li>
+                <li class="linos_deux"><li><a href="#">Soumettre votre hôtel</a></li>
             </ul>
          </div>
    
          <div class="footer_quatre">
             <h3 class="assistance">Assistance</h3> 
             <ul class="menu_assistance">
-                <div class="divassistance_un"><li><a href="#">Centre d'aide</a></li></div>
-                <div class="divassistance_deux"><li><a href="#">Nous contacter</a></li></div>
+                <li class="liassistance_un"><a href="#">Centre d'aide</a></li>
+                <li class="liassistance_deux"><a href="#">Nous contacter</a></li>
             </ul>
          </div>
-    </div>
-</footer>
-<!--FIN PARTIE FOOTER-->
+     </div>
+    </footer>
+    <!--FIN PARTIE FOOTER-->
 </body>
 </html>  
