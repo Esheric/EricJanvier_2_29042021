@@ -111,8 +111,13 @@ section.section_un p.p_un{
 }
 
 section.section_un form p.p_deux{
+    max-width: 1345px;
+    margin: auto;
+}
+
+section.section_un form p.p_deux{
     display: flex;
-    padding-left: 2rem;
+    padding-left: 1.50rem;
 }
 
 section.section_un form p.p_deux i{
