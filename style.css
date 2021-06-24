@@ -30,7 +30,16 @@ body header nav ul li.logo a img{
     margin-left: -1.50rem;
 }
 
-li.menu_hebergements a, li.menu_activites a{
+li.menu_hebergements a{
+    color: #0065FC;
+    border: 0.125rem #0065fc solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 1.13rem;
+} 
+
+li.menu_activites a{
     color: black;
     font-size: 1.13rem;
 }
@@ -85,7 +94,7 @@ li.menu_sinscrire a:active{
 }
 
 li.menu_hebergements a:visited{
-    color: black;
+    color: #0065FC;
 }
 
 li.menu_activites a:visited{
@@ -364,30 +373,48 @@ body main div{
     justify-content: space-between;
 }
 
+/*----------------------------------
+DEBUT HOVER DES CARTES HEBERGEMENTS
+-----------------------------------*/
+
 article:hover{
     background-color: #F2F2F2;
     box-shadow: 0 0 1rem #00000051;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
 }
 
 aside div.aside_deux article.commun_deux:hover{
     background-color: #F2F2F2;
     box-shadow: 0 0 1rem #00000051;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
 }
 
 article.commun_trois:hover{
     background-color: #F2F2F2;
     box-shadow: 0 0 1rem #00000051;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
 }
 
 article.commun_quatre:hover{
     background-color: #F2F2F2;
     box-shadow: 0 0 1rem #00000051;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
 }
 
 article.commun_cinq:hover{
     background-color: #F2F2F2;
     box-shadow: 0 0 1rem #00000051;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
 }
+
+/*--------------------------------
+FIN HOVER DES CARTES HEBERGEMENTS
+---------------------------------*/
 
 /*---------------------------------------------
 DEBUT PARTIE MAIN : "BLOC LES PLUS POPULAIRES"
