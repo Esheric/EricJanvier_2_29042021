@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    font-size: 16px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  li {
+    margin: 3px;
+    &:hover {
+      background-color: var(--secondary);
+      border: 2px solid var(--primary);
+      border-radius: 5px;
+      color: var(--primary);
+    }
+    transition: all 0.4s;
+  }
+}
