@@ -5,9 +5,26 @@
     /></a>
     <ul>
       <li class="p-10">
-        <a routerLink="#" routerLinkActive="active-link">Lodgements</a>
+        <a
+          routerLink="#"
+          routerLinkActive="active-link"
+          *ngIf="media.isActive('gt-xs')"
+          >Lodgements</a
+        >
+        <fa-icon
+          [icon]="faBed"
+          *ngIf="media.isActive('xs')"
+          class="lodgements-icon"
+        ></fa-icon>
       </li>
-      <li class="p-10"><a routerLink="">Register</a></li>
+      <li class="p-10">
+        <a routerLink="" *ngIf="media.isActive('gt-xs')">My account</a>
+        <fa-icon
+          [icon]="faIdCard"
+          *ngIf="media.isActive('xs')"
+          class="user-icon"
+        ></fa-icon>
+      </li>
     </ul>
   </nav>
 </header>

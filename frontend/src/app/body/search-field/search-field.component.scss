@@ -1,31 +1,32 @@
-h1 {
-  font-size: 25px;
-}
-
-p {
-  font-size: 20px;
-}
+// this variable is for the hover search field
+$lighten: #0065fc;
 
 .localization-btn {
   border-right: none;
-  border-left: var(--primary) 2px solid;
-  border-bottom: var(--primary) 2px solid;
-  border-top: var(--primary) 2px solid;
+  border-left: var(--lightwhite) 3px solid;
+  border-bottom: var(--lightwhite) 3px solid;
+  border-top: var(--lightwhite) 3px solid;
   padding: 19.5px;
   background-color: var(--lightwhite);
   border-radius: 10px 0 0 10px;
   cursor: pointer;
   &:focus {
+    border: var(--primary) 3px solid;
+    background-color: var(--primary);
     color: var(--lightwhite);
     font-weight: bold;
-    background-color: var(--primary);
   }
+  &:hover {
+    background-color: lighten($lighten, 10%);
+    border: var(--primary) 3px solid;
+  }
+  transition: background-color 0.4s;
   .localization-span {
     font-size: 15.2px;
   }
 }
 
-.fa-map-marker-alt {
+.localization-icon {
   font-size: 16px;
   border-radius: 10px 0 0 10px;
 }
@@ -34,35 +35,42 @@ input {
   font-size: 16px;
   border-right: none;
   border-left: none;
-  border-bottom: var(--primary) 2px solid;
-  border-top: var(--primary) 2px solid;
+  border-bottom: var(--lightwhite) 3px solid;
+  border-top: var(--lightwhite) 3px solid;
   padding: 19px;
 }
 :focus {
   outline: none;
-  border: 2px solid var(--primary);
+  border: var(--secondary) 3px solid;
 }
 
 .research-btn {
   border-left: none;
-  border-right: var(--primary) 2px solid;
-  border-bottom: var(--primary) 2px solid;
-  border-top: var(--primary) 2px solid;
+  border-right: var(--secondary) 3px solid;
+  border-bottom: var(--secondary) 3px solid;
+  border-top: var(--secondary) 3px solid;
   border-radius: 0 10px 10px 0;
   background-color: var(--secondary);
   padding: 19.5px;
   cursor: pointer;
   &:focus {
+    border: var(--primary) 3px solid;
     background-color: var(--primary);
     color: var(--lightwhite);
     font-weight: bold;
   }
+  &:hover {
+    background-color: lighten($lighten, 10%);
+    border: var(--primary) 3px solid;
+    background-color: var(--primary);
+  }
+  transition: background-color 0.4s;
   .research-span {
     font-size: 15.2px;
   }
 }
 
-.fa-search {
+.research-icon {
   color: var(--text-rgular);
   border-radius: 1rem;
   font-size: 16px;
