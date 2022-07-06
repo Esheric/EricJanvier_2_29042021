@@ -1,0 +1,69 @@
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.localization-btn {
+  border-right: none;
+  border-left: var(--primary) 2px solid;
+  border-bottom: var(--primary) 2px solid;
+  border-top: var(--primary) 2px solid;
+  padding: 19.5px;
+  background-color: var(--lightwhite);
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+  &:focus {
+    color: var(--lightwhite);
+    font-weight: bold;
+    background-color: var(--primary);
+  }
+  .localization-span {
+    font-size: 15.2px;
+  }
+}
+
+.fa-map-marker-alt {
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+}
+
+input {
+  font-size: 16px;
+  border-right: none;
+  border-left: none;
+  border-bottom: var(--primary) 2px solid;
+  border-top: var(--primary) 2px solid;
+  padding: 19px;
+}
+:focus {
+  outline: none;
+  border: 2px solid var(--primary);
+}
+
+.research-btn {
+  border-left: none;
+  border-right: var(--primary) 2px solid;
+  border-bottom: var(--primary) 2px solid;
+  border-top: var(--primary) 2px solid;
+  border-radius: 0 10px 10px 0;
+  background-color: var(--secondary);
+  padding: 19.5px;
+  cursor: pointer;
+  &:focus {
+    background-color: var(--primary);
+    color: var(--lightwhite);
+    font-weight: bold;
+  }
+  .research-span {
+    font-size: 15.2px;
+  }
+}
+
+.fa-search {
+  color: var(--text-rgular);
+  border-radius: 1rem;
+  font-size: 16px;
+}

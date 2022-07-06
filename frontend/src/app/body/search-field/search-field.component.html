@@ -1,0 +1,24 @@
+<div>
+  <h1 class="p-10">Find your accommodation for a dream vacation</h1>
+  <p class="p-10">In the city center or in the middle of nature</p>
+
+  <div class="search-field p-10">
+    <button class="localization-btn">
+      <span class="localization-span" *ngIf="media.isActive('gt-sm')"
+        >Localization</span
+      >
+      <i *ngIf="media.isActive('lt-md')" class="fas fa-map-marker-alt"></i>
+    </button>
+    <input type="search" value="Marseille, France" />
+    <button class="research-btn">
+      <span class="research-span" *ngIf="media.isActive('gt-xs')"
+        >Research</span
+      >
+      <i
+        *ngIf="media.isActive('xs')"
+        class="fas fa-search"
+        aria-hidden="true"
+      ></i>
+    </button>
+  </div>
+</div>
