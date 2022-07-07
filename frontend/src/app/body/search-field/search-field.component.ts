@@ -9,8 +9,8 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./search-field.component.scss'],
 })
 export class SearchFieldComponent implements OnInit {
-  faLocationDot = faLocationDot;
-  faSearch = faSearch;
+  localizationIcon = faLocationDot;
+  researchIcon = faSearch;
 
   constructor(public media: MediaObserver) {}
 

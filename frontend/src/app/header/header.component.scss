@@ -2,7 +2,9 @@ nav {
   display: flex;
   justify-content: space-between;
   .logo {
-    font-size: 16px;
+    font-size: 20px;
+    font-family: var(--font-family-rancho);
+    color: var(--primary);
   }
   ul {
     display: flex;

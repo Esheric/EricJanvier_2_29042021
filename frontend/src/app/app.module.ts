@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { SearchFieldComponent } from './body/search-field/search-field.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FiltersComponent } from './body/filters/filters.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     BodyComponent,
     SearchFieldComponent,
+    FiltersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

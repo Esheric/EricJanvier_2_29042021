@@ -4,7 +4,7 @@
       >Localization</span
     >
     <fa-icon
-      [icon]="faLocationDot"
+      [icon]="localizationIcon"
       *ngIf="media.isActive('lt-md')"
       class="localization-icon"
     ></fa-icon>
@@ -13,7 +13,7 @@
   <button class="research-btn">
     <span class="research-span" *ngIf="media.isActive('gt-xs')">Research</span>
     <fa-icon
-      [icon]="faSearch"
+      [icon]="researchIcon"
       *ngIf="media.isActive('xs')"
       class="research-icon"
     ></fa-icon>

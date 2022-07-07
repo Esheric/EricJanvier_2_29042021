@@ -6,9 +6,11 @@
 }
 
 :root {
-  --font-family: "raleway", sans-serif;
+  --font-family-rancho: "Rancho", cursive;
+  --font-family-raleway: "raleway", sans-serif;
   --primary: #0065fc;
   --secondary: #deebff;
+  --tertiary: #deebff;
   --lightwhite: #f2f2f2;
   --text-regular: #444;
 }
@@ -27,7 +29,7 @@ a {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family-raleway);
   color: var(--text-regular);
 }
 

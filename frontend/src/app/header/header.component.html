@@ -1,8 +1,6 @@
 <header>
   <nav>
-    <a class="logo p-10" routerLink="#"
-      ><img src="../../assets/img/logo/Reservia.svg" alt="Reservia"
-    /></a>
+    <a class="logo m-10" routerLink="#"><h1>Reservia</h1></a>
     <ul>
       <li class="p-10">
         <a
@@ -12,7 +10,7 @@
           >Lodgements</a
         >
         <fa-icon
-          [icon]="faBed"
+          [icon]="lodgementsIcon"
           *ngIf="media.isActive('xs')"
           class="lodgements-icon"
         ></fa-icon>
@@ -20,7 +18,7 @@
       <li class="p-10">
         <a routerLink="" *ngIf="media.isActive('gt-xs')">My account</a>
         <fa-icon
-          [icon]="faIdCard"
+          [icon]="userIcon"
           *ngIf="media.isActive('xs')"
           class="user-icon"
         ></fa-icon>

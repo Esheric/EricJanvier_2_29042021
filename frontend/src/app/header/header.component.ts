@@ -9,8 +9,8 @@ import { faBed } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  faIdCard = faIdCard;
-  faBed = faBed;
+  userIcon = faIdCard;
+  lodgementsIcon = faBed;
   constructor(public media: MediaObserver) {}
 
   ngOnInit(): void {}
