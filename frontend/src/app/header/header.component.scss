@@ -1,3 +1,7 @@
+header {
+  background-color: var(--secondary);
+  border-bottom: 2px solid var(--primary);
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -8,13 +12,13 @@ nav {
   }
   ul {
     display: flex;
-    flex-direction: row;
     align-items: center;
   }
   li {
     margin: 3px;
+    font-weight: bold;
     &:hover {
-      background-color: var(--secondary);
+      background-color: var(--lightwhite);
       border: 2px solid var(--primary);
       border-radius: 5px;
       color: var(--primary);
@@ -23,8 +27,7 @@ nav {
     }
     transition: all 0.4s;
   }
-  .lodgements-icon,
-  .user-icon {
+  .header-icons {
     font-size: 25px;
   }
 }

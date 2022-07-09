@@ -1,24 +1,21 @@
-// this variable is for the hover search field
-$lighten: #0065fc;
-
 .localization-btn {
   border-right: none;
-  border-left: var(--lightwhite) 3px solid;
-  border-bottom: var(--lightwhite) 3px solid;
-  border-top: var(--lightwhite) 3px solid;
-  padding: 20.5px;
+  border-left: var(--primary) 2px solid;
+  border-bottom: var(--primary) 2px solid;
+  border-top: var(--primary) 2px solid;
+  padding: 15.5px;
   background-color: var(--lightwhite);
   border-radius: 10px 0 0 10px;
   cursor: pointer;
   &:focus {
-    border: var(--primary) 3px solid;
+    border: var(--primary) 2px solid;
     background-color: var(--primary);
     color: var(--lightwhite);
     font-weight: bold;
   }
   &:hover {
-    background-color: lighten($lighten, 10%);
-    border: var(--primary) 3px solid;
+    background-color: lighten(#0065fc, 10%);
+    border: var(--primary) 2px solid;
   }
   transition: background-color 0.4s;
   .localization-span {
@@ -35,33 +32,33 @@ input {
   font-size: 16px;
   border-right: none;
   border-left: none;
-  border-bottom: var(--lightwhite) 3px solid;
-  border-top: var(--lightwhite) 3px solid;
-  padding: 19px;
+  border-bottom: var(--primary) 2px solid;
+  border-top: var(--primary) 2px solid;
+  padding: 15px;
 }
 :focus {
   outline: none;
-  border: var(--secondary) 3px solid;
+  border: var(--primary) 2px solid;
 }
 
 .research-btn {
   border-left: none;
-  border-right: var(--secondary) 3px solid;
-  border-bottom: var(--secondary) 3px solid;
-  border-top: var(--secondary) 3px solid;
+  border-right: var(--primary) 2px solid;
+  border-bottom: var(--primary) 2px solid;
+  border-top: var(--primary) 2px solid;
   border-radius: 0 10px 10px 0;
   background-color: var(--secondary);
-  padding: 20.5px;
+  padding: 15.5px;
   cursor: pointer;
   &:focus {
-    border: var(--primary) 3px solid;
+    border: var(--primary) 2px solid;
     background-color: var(--primary);
     color: var(--lightwhite);
     font-weight: bold;
   }
   &:hover {
-    background-color: lighten($lighten, 10%);
-    border: var(--primary) 3px solid;
+    background-color: lighten(#0065fc, 10%);
+    border: var(--primary) 2px solid;
     background-color: var(--primary);
   }
   transition: background-color 0.4s;

@@ -1,7 +1,7 @@
 .filters-container {
   display: grid;
   //rows / columns
-  grid-template: 50px repeat(3, 75px) / 1fr 1fr;
+  grid-template: 50px repeat(2, 75px) / 1fr 1fr;
   grid-gap: 5px;
   justify-content: center;
   align-items: center;

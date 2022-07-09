@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MediaObserver } from '@angular/flex-layout';
+import { faHouseChimneyUser } from '@fortawesome/free-solid-svg-icons';
+import { faIcons } from '@fortawesome/free-solid-svg-icons';
+import { faCartFlatbedSuitcase } from '@fortawesome/free-solid-svg-icons';
 import { faIdCard } from '@fortawesome/free-solid-svg-icons';
-import { faBed } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -9,8 +11,10 @@ import { faBed } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  accommodationsIcon = faHouseChimneyUser;
+  activitiesIcon = faIcons;
+  reservationsIcon = faCartFlatbedSuitcase;
   userIcon = faIdCard;
-  lodgementsIcon = faBed;
   constructor(public media: MediaObserver) {}
 
   ngOnInit(): void {}

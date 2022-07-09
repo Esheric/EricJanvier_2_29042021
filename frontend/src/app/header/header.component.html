@@ -1,26 +1,43 @@
 <header>
   <nav>
     <a class="logo m-10" routerLink="#"><h1>Reservia</h1></a>
+    <app-search-field></app-search-field>
     <ul>
-      <li class="p-10">
+      <li class="p-05">
+        <a routerLink="" *ngIf="media.isActive('gt-xs')">Accommodations</a>
+        <fa-icon
+          [icon]="accommodationsIcon"
+          *ngIf="media.isActive('xs')"
+          class="header-icons"
+        ></fa-icon>
+      </li>
+      <li class="p-05">
+        <a routerLink="" *ngIf="media.isActive('gt-xs')">Activities</a>
+        <fa-icon
+          [icon]="activitiesIcon"
+          *ngIf="media.isActive('xs')"
+          class="header-icons"
+        ></fa-icon>
+      </li>
+      <li class="p-05">
         <a
           routerLink="#"
           routerLinkActive="active-link"
           *ngIf="media.isActive('gt-xs')"
-          >Lodgements</a
+          >Reservations</a
         >
         <fa-icon
-          [icon]="lodgementsIcon"
+          [icon]="reservationsIcon"
           *ngIf="media.isActive('xs')"
-          class="lodgements-icon"
+          class="header-icons"
         ></fa-icon>
       </li>
-      <li class="p-10">
+      <li class="p-05">
         <a routerLink="" *ngIf="media.isActive('gt-xs')">My account</a>
         <fa-icon
           [icon]="userIcon"
           *ngIf="media.isActive('xs')"
-          class="user-icon"
+          class="header-icons"
         ></fa-icon>
       </li>
     </ul>

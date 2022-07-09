@@ -13,6 +13,7 @@
   --tertiary: #deebff;
   --lightwhite: #f2f2f2;
   --text-regular: #444;
+  --border-color: gray;
 }
 
 ul {
@@ -34,6 +35,10 @@ body {
 }
 
 // utils :
+
+.p-05 {
+  padding: 05px;
+}
 
 .p-10 {
   padding: 10px;
