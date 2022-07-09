@@ -1,0 +1,563 @@
+/*-----------
+DEBUT 1315px
+------------*/
+@media screen and (max-width: 1315px){
+    
+    body{
+        max-width: 1315px;
+        margin: auto;
+    }
+    
+    .div_activites{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    }
+
+    div.section_gauche, div.section_droite{
+    height: 28rem;
+    width: 45%;   
+    display: flex;
+    flex-direction: column;
+    }
+
+    div.section_gaucheun,div.section_droiteun {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    }
+
+    article.commun_trois, article.commun_quatre, article.commun_cinq{
+    height: 14rem;
+    width: 100%;
+    }
+
+    article.commun_quatre, article.commun_cinq{
+    margin-top: 2rem;
+    }
+
+    figure.commun_trois img, figure.commun_quatre img, figure.commun_cinq img{
+    height: 11.25rem;
+    width: 100%;
+    }
+
+    h3.commun_trois{
+    padding-bottom: 1rem;
+    }
+
+    footer{
+    margin-top: 22rem;
+    }
+
+    .menu_apropos{
+    margin-left: -1.60rem;
+    }
+}
+/*---------
+FIN 1315px
+----------*/
+
+/*-----------
+DEBUT 1215px
+------------*/
+
+@media screen and (max-width: 1215px){
+    
+    body{
+        max-width: 1215px;
+        margin: auto;
+    }
+    
+    body main div{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    main{
+    width: auto;
+    margin: auto;
+    }
+
+    section.sec_hebergements{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    margin-top: 0rem;
+    }
+
+    section.sec_hebergements div{
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 50rem;
+    }
+
+    article.commun_un{
+    height: 14rem;
+    width: 45%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+
+    body main div aside div.aside_deux article.commun_deux{
+    height: auto;
+    max-width: 1215px;
+    margin-left: 1rem;
+    }
+
+    body main div aside div.aside_deux figure.commun_deux img{
+    width: 100%;
+    height: 12.75rem;
+    border-bottom-left-radius: initial;
+    border-top-right-radius: 1rem;
+    }
+
+    body main div aside{
+    width: auto;
+    height: auto;
+    }
+
+    body main div aside div.aside_un{
+    flex-direction: row;
+    }
+
+    body main div aside div.aside_deux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 1rem;
+        position: initial;
+        font-size: 1rem;
+    }
+
+    article.commun_deux a p.commun_deux{
+        padding-left: 1rem;
+        position: initial;
+        font-size: 1rem;
+    }
+
+    article.commun_deux a ul.commun_deux{
+        padding-left: 1rem;
+        position: initial;
+        font-size: 1rem;
+    }
+
+    .sec_activites{
+        padding-top: 12rem;
+    }
+
+    .div_activites{
+        flex-direction: row;
+        }
+}
+
+/*---------
+FIN 1215px
+----------*/
+
+/*----------
+DEBUT 640px
+-----------*/
+
+@media screen and (max-width: 640px){
+
+    body header{
+        padding-left: 0rem;
+    }
+
+    body header nav ul li.logo a img{
+        margin-left: -0.50rem;
+    }
+    
+    body header nav{
+        width: 100%;
+    }
+    
+    body header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav ul a{
+        order: 0;
+        padding-left: 1rem;
+    }
+    
+    header nav ul li.menu_hebergements{
+        order: 2;
+        width: 50%;
+    }
+
+    header nav ul li.menu_activites{
+        order: 3;
+        width: 50%;
+    }
+
+    header nav ul li.menu_sinscrire{
+        order: 1;
+        width: 50%;    
+    }
+
+    header nav ul li.menu_hebergements a{
+        color: black;
+        border: 0.125rem #f2f2f2 solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    } 
+    
+    header nav ul li.menu_activites a{
+        color: black;
+        border: 0.125rem #f2f2f2 solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    header nav ul li.menu_sinscrire a{
+        float: right;
+        font-size: 20px;
+    }
+
+    header nav ul li.menu_hebergements a:hover, header nav ul li.menu_activites a:hover{
+        color: #0065FC;
+        border: 0.125rem #0065fc solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    li.menu_hebergements a:visited{
+        color: #0065FC;
+        border: 0.125rem #0065fc solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;   
+    }
+
+    header nav ul li.menu_hebergements a:active, header nav ul li.menu_activites a:active{
+        color: #0065FC;
+        border: 0.125rem #106ffc solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    p.p_trois{ 
+        padding-left: 2rem;
+        font-size: 14px;
+    }
+
+    article.commun_un{
+        width: 36rem;
+        margin-left: 0rem;
+    }
+
+    section.section_un form p.p_deux{
+        display: flex;
+    }
+
+    section.section_un form p.p_deux i{
+        flex-grow: 0;
+    }
+
+    section.section_un form p.p_deux input{
+        flex-grow: 3;
+    }
+
+    section.section_un form p.p_deux button{
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        padding: 0rem;
+        background-color: #0065FC;    
+        position: relative;
+        left: -1rem;
+        flex-grow: 0;
+    }
+
+    section.section_un form p.p_deux button span{
+        display: none ;
+    }   
+
+    section.section_un form p.p_deux button i{
+        display: block;
+        color: white;
+        background-color: #0065fc;
+        border-radius: 1rem; 
+        flex-grow: 0;         
+    }
+
+    body main div aside{
+        width: 100%;
+        height: auto;
+    }
+
+    aside div.aside_un h2{
+        padding-left: 4rem;
+    }
+
+    body main div aside div.aside_un{
+        padding-top: 2rem;
+    }
+
+    body main div aside div.aside_deux{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    body main div aside div.aside_deux article.commun_deux{
+        height: 10.75rem;
+        width: 95%;
+        margin-left: 0rem;
+    }
+
+    body main div aside div.aside_deux figure.commun_deux img{
+        width: 44%;
+        height: 10.75rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: initial;
+    }   
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 17rem;
+        position: initial;
+        margin-top: -10rem;
+        flex-wrap: wrap;   
+    }
+
+    article.commun_deux a p.commun_deux{
+        padding-left: 17rem;
+        position: initial;
+        padding-top: 1rem;
+        flex-wrap: wrap; 
+    }
+
+    article.commun_deux a ul.commun_deux{
+        padding-left: 17rem;
+        position: initial;
+        padding-top: 5rem;
+        flex-wrap: wrap;
+    }
+
+    section.sec_hebergements{
+        margin-top: 0rem;
+    }
+
+    #menu_hebergments{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        position: relative;
+        top:-21rem;
+    }
+
+    section.sec_hebergements div{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: initial;
+    }
+
+    article.commun_un{
+        height: 14rem;
+        width: 95%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .sec_activites{
+        padding-top: 59rem;
+    }
+    .sec_activites h2{
+        padding-left: 2rem;
+    } 
+
+    div.section_gauche, div.section_droite{
+        height: 46rem;
+        width: 100%;   
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        position: relative;
+        left: 0rem;
+        padding-left: 1rem;
+    }
+
+    article.commun_trois, article.commun_quatre, article.commun_cinq{
+        width: 95%;
+        margin-left: 0rem;
+    }
+
+    footer{
+        margin-top: 3rem;
+        height: 30rem;
+    }
+    
+    footer div.footer_un{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+    article:hover{
+        -webkit-transform:scale(0.9); /* Safari and Chrome */
+        -moz-transform:scale(0.9); /* Firefox */
+    }
+    
+    aside div.aside_deux article.commun_deux:hover{
+        -webkit-transform:scale(0.9); /* Safari and Chrome */
+        -moz-transform:scale(0.9); /* Firefox */
+    }
+    
+    article.commun_trois:hover{
+        -webkit-transform:scale(0.9); /* Safari and Chrome */
+        -moz-transform:scale(0.9); /* Firefox */
+    }
+    
+    article.commun_quatre:hover{
+        -webkit-transform:scale(0.9); /* Safari and Chrome */
+        -moz-transform:scale(0.9); /* Firefox */
+    }
+    
+    article.commun_cinq:hover{
+        -webkit-transform:scale(0.9); /* Safari and Chrome */
+        -moz-transform:scale(0.9); /* Firefox */
+    }
+}
+
+/*--------
+FIN 640px
+---------*/
+
+/*------------------
+DEBUT 600px To 310px
+-------------------*/
+
+@media screen and (max-width: 600px){
+
+    article.commun_deux a h3.commun_deux{
+    padding-left: 16rem;
+    }
+
+    article.commun_deux a p.commun_deux{
+    padding-left: 16rem;
+    }
+
+    article.commun_deux a ul.commun_deux{
+    padding-left: 16rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+    article.commun_deux a ul.commun_deux{
+    padding-top: 4rem;
+    }
+}   
+
+@media screen and (max-width: 445px){
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 12rem;  
+    }
+    
+    article.commun_deux a p.commun_deux{
+        padding-left: 12rem;
+    }
+    
+    article.commun_deux a ul.commun_deux{
+        padding-left: 12rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 10rem;  
+    }
+    
+    article.commun_deux a p.commun_deux{
+        padding-left: 10rem;
+    }
+    
+    article.commun_deux a ul.commun_deux{
+        padding-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 345px){
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 9rem;  
+    }
+    
+    article.commun_deux a p.commun_deux{
+        padding-left: 9rem;
+    }
+    
+    article.commun_deux a ul.commun_deux{
+        padding-left: 9rem;
+    }
+}
+
+@media screen and (max-width: 329px){
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 8rem;  
+    }
+    
+    article.commun_deux a p.commun_deux{
+        padding-left: 8rem;
+    }
+    
+    article.commun_deux a ul.commun_deux{
+        padding-left: 8rem;
+    }
+
+    body main div aside div.aside_deux figure.commun_deux img{
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 310px){
+
+    article.commun_deux a h3.commun_deux{
+        padding-left: 7.10rem;  
+    }
+    
+    article.commun_deux a p.commun_deux{
+        padding-left: 7.10rem;
+    }
+    
+    article.commun_deux a ul.commun_deux{
+        padding-left: 7.10rem;
+        padding-top: 3rem;
+    }
+
+    body main div aside div.aside_deux figure.commun_deux img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 310px){
+    
+    article.commun_deux a ul.commun_deux{
+        padding-top: 1rem;
+    }
+}
+
+/*----------------
+FIN 600px To 310px
+-----------------*/
